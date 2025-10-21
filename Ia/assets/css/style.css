@@ -1,0 +1,136 @@
+/* Fuente y colores base */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f0e1;
+  color: #4b2e05;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background-color: #8b5e3c;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Navegación */
+nav {
+  background-color: #4b2e05;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #d2b48c;
+}
+
+/* Secciones */
+.seccion {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #8b5e3c;
+}
+
+/* Botón */
+button {
+  background-color: #4b2e05;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8b5e3c;
+}
+
+/* Pie de página */
+footer {
+  background-color: #4b2e05;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
+/* Fuente y colores base */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f0e1;
+  color: #4b2e05;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background-color: #8b5e3c;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Navegación */
+nav {
+  background-color: #4b2e05;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #d2b48c;
+}
+
+/* Secciones */
+.seccion {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #8b5e3c;
+}
+
+/* Botón */
+button {
+  background-color: #4b2e05;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8b5e3c;
+}
+
+/* Pie de página */
+footer {
+  background-color: #4b2e05;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}

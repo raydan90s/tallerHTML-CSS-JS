@@ -1,0 +1,33 @@
+Crea una página web completa desde cero sobre una cafetería artesanal, usando solo HTML, CSS (en archivo externo) y JavaScript (en archivo externo).
+Explica la estructura del proyecto y qué hace cada archivo.
+Agrega una interacción simple con JavaScript (por ejemplo, un botón que cambie el color de fondo del sitio).
+Selecciona una paleta de colores y fuente que combinen con el tema de una cafetería.
+Muestra el código de los archivos index.html, style.css y script.js, y explica cómo abrir el proyecto en un navegador
+
+Perfecto, Diego ☕
+Vamos a crear una página web completa de una cafetería artesanal usando HTML, CSS y JavaScript en archivos separados.
+También te explicaré cómo está organizada la estructura, qué hace cada archivo y cómo probarlo en tu navegador.
+
+🧱 Estructura del proyecto
+
+Tu carpeta del proyecto se verá así:
+
+cafeteria-artesanal/
+│
+├── index.html      → Archivo principal con la estructura del sitio
+├── style.css       → Archivo de estilos (colores, fuentes, diseño)
+└── script.js       → Archivo JavaScript (interactividad)
+
+🎨 Paleta de colores y fuente
+
+Colores elegidos (tema cálido y natural):
+
+Fondo principal: #f5f0e1 (beige claro)
+
+Marrón oscuro (título y botones): #4b2e05
+
+Marrón medio: #8b5e3c
+
+Acento (hover): #d2b48c
+
+Fuente: "Poppins", sans-serif (limpia y moderna)
