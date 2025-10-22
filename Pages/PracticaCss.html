@@ -8,13 +8,15 @@
     <meta name="author" content="Xelula">
     <meta http-equiv="refresh" content="10">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <!--TITULO E ICONOS-->
     <title>Practica Css</title>
     <link rel="icon" href="../Img/Icon/css.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css"> <!--Con esta hoja de estilo se resetea el formato del browser/Navegador-->
 </head>
 
-<body>
+<body class="Poppins">
+
     <hr>
     <!--==== BARRA DE NAVEGACION  -->
     <nav>
@@ -30,7 +32,7 @@
         <a href="../Pages/PracticaVideo.html">Práctica de Video</a> |
         <a href="../Pages/PracticaTablas.html">Práctica de Tablas</a> |
         <a href="../Pages/PracticaCss.html">Práctica de CSS</a> |
-        <a href="../Pages/PracticaCopyPaste.html">Práctica de CopyPaste</a> |
+        <a href="../copyPaste/index.html">Práctica de CopyPaste</a> |
         <a href="../Pages/PracticaJavaScript.html">Práctica de JavaScript</a> |
         <a href="../Pages/PracticaControles.html">Práctica de Controles</a> |
         <a href="../Pages/PracticaFormulario.html">Práctica de Formulario</a> |
@@ -42,7 +44,91 @@
     <hr>
     <!--===== PRACTICA ETIQUETA DE Css =======-->
     <main>
-        <h1>Practica de Css</h1>
+        <h1>PRACTICA DE CSS</h1>
+        <span>Css nos ayuda/sirve para dar estilo y diseño a nuestra Pagina Web.<br>Para aplicarlo tenemos tres
+            opciones:<br></span>
+
+        <div class="flexible">
+            <p class="caja">
+                1.-En linea - Código embebido<br>
+                style="color:red">Linea de estilo con Código embebido<br>
+            </p>
+            <!--Devenios aplicar los selectores-->
+            <p class="caja"> 2.-Códig Interno - Código en la cabecera<br>
+                El código debe ir en la cabecera del file
+                <br>
+                p { <br>
+                background:aqua;<br>
+                } <br>
+                <br>
+            </p>
+
+            <p class="caja">3.-Externo - File.css<br>
+                link rel="stylesheet" href="estilo.ccs"
+            </p>
+
+        </div>
+        <p class="resalta">
+            Modelo caja n1 <br>
+            Este es un modelo caja. <br>
+            Todo elemento html se presenta como un modelo de caja.
+        </p>
+        <p class="caja">Modelo caja n1 <br>
+            Este es un modelo caja.
+            Todo elemento html se presenta como un modelo de caja.</p>
+        <p class="caja">Horizontal</p>
+
+        <p class="caja">
+            Modelo caja n2 <br>
+            Este es un modelo caja.
+            Todo elemento HTML se presenta en pantalla se debe tratar como una caja
+        </p>
+        <p class="inlinebc">
+            Modo inline block <br>
+            Este es un modelo caja.
+            Todo elemento html se presenta como un modelo de caja.
+        </p>
+        <span>
+            <h3>Hipervínculos</h3>
+
+            <h4>Hipervínculos: Abrir en nueva pestaña</h4>
+
+            <p>Atributo <code>target="_blank"</code>: Este atributo se utiliza para especificar cómo se debe abrir el
+                hipervínculo. Puede ser <code>_blank</code>, <code>_self</code>, <code>_parent</code>, o cualquier
+                nombre
+                diferente que no sea de los cuatro mencionados, que se considera <code>_blank</code> para abrir en una
+                nueva
+                pestaña o ventana. <a href="PracticaCss.html" target="_blank">Abrir en una nueva pestaña</a></p>
+
+            <h4>Hipervínculos: Abrimos en la misma pestaña</h4>
+
+            <p>Los hipervínculos permiten a los usuarios navegar entre diferentes páginas web de manera sencilla. Sin
+                embargo, no todos los navegadores permiten abrir enlaces en la misma pestaña. Para aquellos que desean
+                mantener la navegación dentro de su sitio web o evitar que los usuarios se distraigan con otras páginas
+                externas, es posible utilizar HTML y la propiedad <code>target</code> del elemento de ancla para abrir
+                un
+                enlace en la misma pestaña. Esto se logra estableciendo el valor <code>_self</code> para el atributo
+                <code>target</code> del enlace. <a href="PracticaCss.html" target="_self">Abrir en la misma pestaña</a>
+            </p>
+
+            <h4>Hipervínculos: Abrir en nueva pestaña, modo seguro</h4>
+
+            <p>Atributo <code>rel="noopener noreferrer"</code>: Este es el uso combinado de los atributos
+                <code>noopener</code> y <code>noreferrer</code>, que se utilizan para mejorar la seguridad y la
+                privacidad
+                al abrir hipervínculos. Al usar estos atributos, se puede garantizar que los hipervínculos se abran en
+                una
+                nueva pestaña o ventana, proporcionando una experiencia de navegación más segura y responsable. <a
+                    href="PracticaAudio.html" target="_blank" rel="noopener noreferrer">Abrir en una nueva pestaña
+                    (Modo Seguro)</a>
+            </p>
+        </span>
+        <hr>
+        <h2>Botones con estilo</h2>
+        <h6>Evento over</h6>
+        <button>Presioname 1</button>
+        <button class="boton">Presioname 2</button>
+
 
     </main>
     <!--===== PIE DE PAGINA =======-->

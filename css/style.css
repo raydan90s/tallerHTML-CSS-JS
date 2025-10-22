@@ -1,0 +1,189 @@
+/*
+1. - Selector de elemento (Selector de etiqueta) 
+Solo requiere que se indique cual es la etiqueta HTML que se desae aplicarr con el diseno
+body{
+h1{}
+h3{}
+h4{}
+
+
+2.- Selector de clase (inicia con un punto)
+- Mayoría de framework usan este tipo de selector
+- Que al inicio de la etiqueta/selector en CSS inicia con un punto, es una selector de clase
+- Los selectores de clase son de su propia imaginación
+CSS:
+    .Título{}
+    .Cuerpo{}
+    .Ficha{}
+HTML:
+    <p class="Cuerpo"> texto que aparece en pantalla
+    </p>
+Debe ser el mismo que se puso en HTML y en CSS
+    diferencias:
+    - Varios elementos/etiquetas HTML pueden aplicar la misma clase
+
+3.-Selector ID (se antepone el #) -Cuando se asigna/relaciona con un ID unico a una etiqueta/elemento HTML
+
+
+4.-selector combinado (donde especifica la etiqueta HTML por niveles)
+*/
+
+.Poppins {
+    font-family: "Poppins", sans-serif; 
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(90deg, #a1d4ff, #99f2ff);
+    backdrop-filter: blur(10px);
+}
+
+.caja {
+    width: 30%;
+    padding: 11px;
+    border: 2px solid black;
+    margin: 15px;
+    background-color: #dbb5d3;
+    text-align: center;
+}
+
+.inlinebc {
+    display: inline-block;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    background-color: #b5cf88; 
+}
+
+.flexible {
+    margin: 20px;
+    padding: 2px;
+    display: flex;
+    border: 1px solid black;
+    background-color: #f9ffb0; 
+    justify-content: center;
+}
+
+nav a {
+    padding: 10px;
+}
+
+nav a:hover {
+    background: #f0f0f0; 
+    border: 2px dotted chocolate;
+    border-radius: 10px;
+    transform: scale(1.05);
+}
+
+header nav {
+    position: sticky;
+    background-color: #9b86f0; 
+    color: black;
+    padding: 15px;
+    top: 1px;
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    border: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ff6347; 
+    transition: background 0.3s, transform 0.2s;
+}
+
+button.boton {
+    background-color: #c04848; 
+    color: #99f2ff;
+}
+
+.boton:hover {
+    transform: scale(2);
+}
+
+header a {
+    color: black;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 30px;
+    color: #ff7f50; 
+    font-weight: 800;
+    text-align: center;
+}
+
+
+@keyframes slideInFromLeft {
+    0% {
+        /* Estado inicial: El elemento está completamente fuera de la vista a la izquierda */
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        /* Estado final: El elemento está en su posición normal */
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.resalta {
+    color: #003366;
+    font-weight: bold;
+    background: #d8e6f5;
+    padding: 5px 10px;
+    border-left: 4px solid #003366;
+}
+
+footer {
+    background-color: #003366;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Puntos claves */
+/* 
+
+- El diseno de la pagina debe ser adaptabla a la pantalla, 
+de tal forma que se regoaznaica el contenido de la misma
+- Es indispensable su manejo hoy en dia
+- La idea es mejorar la experiencia del usuario
+
+Unidades
+% es para anchos fluidos
+em y rem solo para tripografia
+vh para la altura
+vw para el ancho
+*/
+/* Estilo para responsive design */
+
+/* 768 para pantalla mediana */
+@media (max-width: 768px) {
+    body {
+        background: orange;
+    }
+
+    .caja {
+        background-color: #552868;
+        width: 20%;
+    }
+}
+
+/* 480 para pantalla pequeña */
+@media (max-width: 480px) {
+    body {
+        background: white;
+    }
+    .caja {
+        background-color: yellow;
+        width: 10%;
+    }
+}

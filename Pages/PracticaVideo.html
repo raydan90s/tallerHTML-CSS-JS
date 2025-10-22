@@ -6,7 +6,7 @@
     <meta name="description" content="practicas-- html, css, ja">
     <meta name="keywords" content="HTM, CSS, JavaScript">
     <meta name="author" content="Xelula">
-    <meta http-equiv="refresh" content="10">
+    <meta http-equiv="refresh" content="300">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta>
     <!--TITULO E ICONOS-->
@@ -30,7 +30,7 @@
         <a href="../Pages/PracticaVideo.html">Práctica de Video</a> |
         <a href="../Pages/PracticaTablas.html">Práctica de Tablas</a> |
         <a href="../Pages/PracticaCss.html">Práctica de CSS</a> |
-        <a href="../Pages/PracticaCopyPaste.html">Práctica de CopyPaste</a> |
+        <a href="../copyPaste/index.html">Práctica de CopyPaste</a>|
         <a href="../Pages/PracticaJavaScript.html">Práctica de JavaScript</a> |
         <a href="../Pages/PracticaControles.html">Práctica de Controles</a> |
         <a href="../Pages/PracticaFormulario.html">Práctica de Formulario</a> |
@@ -43,6 +43,42 @@
     <!--===== PRACTICA ETIQUETA DE Video =======-->
     <main>
         <h1>Practica de Video</h1>
+        <!--Video Basico - Recomendado-->
+        <video
+            width="300"
+            height="300"
+            style="border:1px solid black;"
+            controls
+        >
+        <source src="../video/video.mp4" type="video/mp4">
+        El navegador no soporta el video
+        </video>
+
+        <!--Video con portada publicidad-->
+        <video
+            width="300"
+            height="280"
+            style="border:1px solid black;"
+            poster="../Img/reloj.jpg"
+            controls
+        >
+        <source src="../video/video.mp4" type="video/mp4">
+        El navegador no soporta el video
+        </video>
+
+        <!--Video con autoplay-->
+        <video
+            width="300"
+            height="280"
+            style="border:1px solid black;"
+            poster="../Img/reloj.jpg"
+            controls
+            autoplay
+            muted
+        >
+        <source src="../video/video.mp4" type="video/mp4">
+        El navegador no soporta el video
+        </video>
 
     </main>
     <!--===== PIE DE PAGINA =======-->

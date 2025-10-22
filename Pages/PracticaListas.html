@@ -30,7 +30,7 @@
         <a href="../Pages/PracticaVideo.html">Práctica de Video</a> |
         <a href="../Pages/PracticaTablas.html">Práctica de Tablas</a> |
         <a href="../Pages/PracticaCss.html">Práctica de CSS</a> |
-        <a href="../Pages/PracticaCopyPaste.html">Práctica de CopyPaste</a> |
+        <a href="../copyPaste/index.html">Práctica de CopyPaste</a>|
         <a href="../Pages/PracticaJavaScript.html">Práctica de JavaScript</a> |
         <a href="../Pages/PracticaControles.html">Práctica de Controles</a> |
         <a href="../Pages/PracticaFormulario.html">Práctica de Formulario</a> |
@@ -43,7 +43,121 @@
     <!--===== PRACTICA ETIQUETA DE Listas =======-->
     <main>
         <h1>Practica de listas</h1>
+        <!--Listas Ordendas, No ordenadas, anidadas, definicion-->
+        <h3>Listas ordendas</h3>
+        <!--Lista ordenada se las usa en el momento de presentar secuencias o items que tienen un orden
+        en especifico (Predefinido o inalterable)-->
+        <h2>Los dias de la semana</h2>
+        <ol>
+            <li>Lunes</li>
+            <li>Martes</li>
+            <li>Miercoles</li>
+            <li>Jueves</li>
+            <li>Viernes</li>
+            <li>Sabado</li>
+            <li>Domingo</li>
+        </ol>
 
+        <h2>Los meses del año</h2>
+        <ol>
+            <li>Enero</li>
+            <li>Febrero</li>
+            <li>Marzo</li>
+            <li>Abril</li>
+            <li>Mayo</li>
+            <li>Junio</li>
+            <li>Julio</li>
+        </ol>
+
+        <!--LISTAS NO ORDENADAS-->
+        <h3>Listas No ordendas</h3>
+        <!--Lista NO ordenadas no tienen un orden especifico, es decir no son 
+        predefinidas y su presetancion no importa-->
+        <h2>Receta para seco de Delfin</h2>
+        <ul>
+            <li>Cebolla</li>
+            <li>Ajo</li>
+            <li>Comino</li>
+            \<li>Sal</li>
+            <li>Pimienta</li>
+            <li>Tomate</li>
+        </ul>
+        <!--
+            list-style-type: circle;
+            list-style-type: square;
+            list-style-type: disc;
+            list-style-type: decimal;
+            list-style-type: geometric;
+            list-style-type: katakana;
+            list-style-type: katakana-iroha;
+        -->
+        <h2>Receta para galletas navideñas (Viñetas seleccionada) </h2>
+        <ul style="list-style-type: katakana-iroha;">
+            <li>Leche</li>
+            <li>Harina</li>
+            <li>Azúcar</li>
+            <li>Mantequilla</li>
+        </ul>
+
+        <!---->
+        <h2>Lista de pokemon (Viñetas personalizada) </h2>
+        <ul style="list-style-image: url(../Img/Icon/controles.ico);">
+            <li>Leche</li>
+            <li>Harina</li>
+            <li>Azúcar</li>
+            <li>Mantequilla</li>
+        </ul>
+
+        <!--LISTAS ANIDADAS-->
+        <h3>Listas Anidadas</h3>
+        <!--Lista anidadas son, una lista dentro de otra, puede ser un OL dentro de un UL o alrevez
+        o en cualquer presentacion-->
+        <h2>Estaciones del año</h2>
+        <ol>
+            <li>Primavera
+                <ul>
+                    <li>Marzo</li>
+                    <li>Abril</li>
+                    <li>Mayo</li>
+                </ul>
+            </li>
+            <li>Verano
+                <ul>
+                    <li>Junio</li>
+                    <li>Julio</li>
+                    <li>Agosto</li>
+                </ul>
+            </li>
+            <li>Otoño
+                <ul>
+                    <li>Septiembre</li>
+                    <li>Octubre</li>
+                    <li>Noviembre</li>
+                </ul>
+            </li>
+            <li>Invierno
+                <ul>
+                    <li>Diciembre</li>
+                    <li>Enero</li>
+                    <li>Febrero</li>
+                </ul>
+            </li>
+        </ol>
+
+        <hr>
+        <!--LISTAS DE DEFINICION-->
+        <h3>Listas de definicion</h3>
+        <!--Listas definicion, se usa para elistar normalmente varias preguntas
+        con sus respectivas respuestas-->
+        <dl>
+            <dt>Atienden los fines de semana</dt>
+            <dd>No, no lo hacemos</dd>
+            <dt>Atienden los domingos</dt>
+            <dd>No, es parte de un fin de semana</dd>
+            <dt>Atienden los feriados</dt>
+            <dd>No, tambien tenemos familia</dd>
+        </dl>
+     
     </main>
     <!--===== PIE DE PAGINA =======-->
     <hr>

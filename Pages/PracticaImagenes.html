@@ -30,7 +30,7 @@
         <a href="../Pages/PracticaVideo.html">Práctica de Video</a> |
         <a href="../Pages/PracticaTablas.html">Práctica de Tablas</a> |
         <a href="../Pages/PracticaCss.html">Práctica de CSS</a> |
-        <a href="../Pages/PracticaCopyPaste.html">Práctica de CopyPaste</a> |
+        <a href="../copyPaste/index.html">Práctica de CopyPaste</a>|
         <a href="../Pages/PracticaJavaScript.html">Práctica de JavaScript</a> |
         <a href="../Pages/PracticaControles.html">Práctica de Controles</a> |
         <a href="../Pages/PracticaFormulario.html">Práctica de Formulario</a> |
@@ -43,6 +43,59 @@
     <!--===== PRACTICA ETIQUETA DE Imagenes =======-->
     <main>
         <h1>Practica de Imagenes</h1>
+        <!--FRAME- para iumportar una pagina externa dentro de mi sitio-->
+        <iframe title="Pagina Externa" width="300" height="300" src="https://vago.com/" style="border: 1px solid">
+        </iframe>
+
+        <!--FRAME CON VIDEO DE YOUTUBE-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vuo8kD5zF5I?si=fwOalW5ByHgl90pf"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+        <hr>
+        <!--Etiquetas de Imagenes-->
+        <!--Se debe de usar alt dentro de la etiqueta img para describir en palabras la imagen-->
+        <!--Esta descripcion ayuda a: EL SEO, tener texto descriptivo que se usara en el
+            momento en que la iamgen no puede ser cargada
+            Por proceso de accesibilidad nmo cargada-->
+        <h3>Etiqueta IMG (Basica - IMagen local)</h3>
+        <img src="../Img/fondo.jpg" alt="Imagen de ejemplo 1" width="300" height="300">
+        <hr>
+        <h3>Etiqueta IMG (Basica - IMagen externa)</h3>
+        <img src="https://media.es.wired.com/photos/6776b2d78a0ea5cfeb3d5210/16:9/w_2560%2Cc_limit/1334436084"
+            alt="Imagen de ejemplo 2" width="300" height="300">
+        <hr>
+
+        <img src="../Img/nube.jpg" alt="Red de computadoras" usemap="#NubeComputadora">
+        <img src="../Img/Cloud.png" alt="Imagen de nube, red de computadoras" usemap="#NubeComputadora">
+        <map name="NubeComputadora">
+            <area target="" alt="Pc de escritorio" title="desktop" href="cloud/PC.html"
+                coords="405,58,399,96,356,133,439,190,544,144,541,64,477,80" shape="poly">
+            <area target="" alt="Servidor" title="server" href="cloud/server.html"
+                coords="736,4,664,32,657,176,814,242,881,207,909,68" shape="poly">
+            <area target="" alt="Todo en Uno" title="aio" href="cloud/aio.html"
+                coords="893,253,883,326,840,363,960,421,1006,375,1014,301,956,266" shape="poly">
+            <area target="" alt="Blackberry" title="blackberry" href="cloud/blackberry.html"
+                coords="864,463,764,547,883,629,981,521" shape="poly">
+            <area target="" alt="Laptop" title="laptop" href="cloud/laptop.html"
+                coords="539,562,509,633,450,671,554,758,627,712,636,629,584,595,560,572" shape="poly">
+            <area target="" alt="Telefono" title="telefono" href="cloud/phone.html"
+                coords="8,620,162,518,228,582,80,685" shape="poly">
+            <area target="" alt="Switch" title="switch" href="cloud/switch.html"
+                coords="159,181,238,131,311,183,227,238" shape="poly">
+            <area target="" alt="Sevidor personal" title="personalserver" href="cloud/serverPersonal.html"
+                coords="14,271,106,226,148,260,161,328,75,382,38,385,59,360" shape="poly">
+        </map>
+
+        <h3>Image Responsiva (Adaptable segun las dimensiones de la pantalla)</h3>
+        <picture>
+            <source media="(min-width: 650px)" srcset="../Img/juego650.jpg">
+            <source media="(min-width: 450px)" srcset="../Img/juego450.jpeg">
+            <source media="(min-width: 300px)" srcset="../Img/juego300.jpg">
+            <source media="(min-width: 100px)" srcset="../Img/juego100.jpg">
+            <img src="../Img/juego5.png" alt="Imagen responsiva">
+        </picture>
 
     </main>
     <!--===== PIE DE PAGINA =======-->
